@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+
+$pinkColor: rgb(252, 117, 140);
+$white: rgb(255, 255, 255);
+$montserratFamily: "Montserrat", sans-serif;
+$questrialFamily: "Questrial", sans-serif;
+body {
+  margin: 0;
+  padding: 0;
+}
+.Main {
+  font-size: 1rem;
+  &__Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: $montserratFamily;
+    ul {
+      width: 600px;
+      display: inherit;
+      justify-content: space-evenly;
+      list-style: none;
+      li {
+        cursor: pointer;
+        padding: 10px;
+      }
+      li:hover {
+        background-color: $pinkColor;
+      }
+    }
+    &--Logo {
+      cursor: pointer;
+      img {
+        width: 200px;
+      }
+    }
+    &--Search {
+      cursor: pointer;
+      img {
+        width: 50px;
+      }
+    }
+  }
+  &__Presentation {
+    background-color: $pinkColor;
+    font-family: $montserratFamily;
+    text-align: center;
+    color: $white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 450px;
+    &--button {
+      padding: 10px;
+      background-color: $white;
+      color: $pinkColor;
+      width: 200px;
+    }
+    &--button:hover {
+      -webkit-transform: scale(1.25);
+    }
+    h1 {
+      font-size: 3rem;
+    }
+    p {
+      font-family: $questrialFamily;
+    }
+  }
+  &__Container {
+    &--Icons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      figure:hover {
+        -webkit-transform: scale(1.25);
+      }
+    }
+    &--List {
+      display: flex;
+      justify-content: center;
+      font-family: $questrialFamily;
+      ul {
+        width: 500px;
+        justify-content: space-between;
+        list-style: none;
+        display: flex;
+        li {
+          padding: 10px;
+          cursor: pointer;
+        }
+        li:hover {
+          background-color: $pinkColor;
+          color: $white;
+        }
+      }
+    }
+    &--Images {
+      img {
+        max-width: 300px;
+      }
+      img:hover {
+        -webkit-transform: scale(1.25);
+      }
+      margin: 1rem auto;
+      width: 100%;
+      max-width: 960px;
+      column-count: 3;
+    }
+  }
+  &__Footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: $questrialFamily;
+
+    p {
+      font-size: 0.8rem;
+      margin: 0;
+      text-align: center;
+    }
+    &--color {
+      color: $pinkColor;
+    }
+    ul {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      li {
+        img {
+          width: 20px;
+          padding: 10px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+//750 px menu hamburguesa

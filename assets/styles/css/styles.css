@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.Main {
+  font-size: 1rem;
+}
+.Main__Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+.Main__Header ul {
+  width: 600px;
+  display: inherit;
+  justify-content: space-evenly;
+  list-style: none;
+}
+.Main__Header ul li {
+  cursor: pointer;
+  padding: 10px;
+}
+.Main__Header ul li:hover {
+  background-color: #fc758c;
+}
+.Main__Header--Logo {
+  cursor: pointer;
+}
+.Main__Header--Logo img {
+  width: 200px;
+}
+.Main__Header--Search {
+  cursor: pointer;
+}
+.Main__Header--Search img {
+  width: 50px;
+}
+.Main__Presentation {
+  background-color: #fc758c;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 450px;
+}
+.Main__Presentation--button {
+  padding: 10px;
+  background-color: white;
+  color: #fc758c;
+  width: 200px;
+}
+.Main__Presentation--button:hover {
+  -webkit-transform: scale(1.25);
+}
+.Main__Presentation h1 {
+  font-size: 3rem;
+}
+.Main__Presentation p {
+  font-family: "Questrial", sans-serif;
+}
+.Main__Container--Icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.Main__Container--Icons figure:hover {
+  -webkit-transform: scale(1.25);
+}
+.Main__Container--List {
+  display: flex;
+  justify-content: center;
+  font-family: "Questrial", sans-serif;
+}
+.Main__Container--List ul {
+  width: 500px;
+  justify-content: space-between;
+  list-style: none;
+  display: flex;
+}
+.Main__Container--List ul li {
+  padding: 10px;
+  cursor: pointer;
+}
+.Main__Container--List ul li:hover {
+  background-color: #fc758c;
+  color: white;
+}
+.Main__Container--Images {
+  margin: 1rem auto;
+  width: 100%;
+  max-width: 960px;
+  column-count: 3;
+}
+.Main__Container--Images img {
+  max-width: 300px;
+}
+.Main__Container--Images img:hover {
+  -webkit-transform: scale(1.25);
+}
+.Main__Footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Questrial", sans-serif;
+}
+.Main__Footer p {
+  font-size: 0.8rem;
+  margin: 0;
+  text-align: center;
+}
+.Main__Footer--color {
+  color: #fc758c;
+}
+.Main__Footer ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.Main__Footer ul li img {
+  width: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=styles.css.map */

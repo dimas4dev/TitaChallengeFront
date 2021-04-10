@@ -8,7 +8,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "server": "json-server images.json"
+    "server": "json-server images.json",
+    "page": "npx http-server -p 8000"
   },
   "repository": {
     "type": "git",

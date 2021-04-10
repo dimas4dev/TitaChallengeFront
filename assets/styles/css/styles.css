@@ -132,4 +132,22 @@ body {
   cursor: pointer;
 }
 
+@media screen and (max-width: 750px) {
+  .Main {
+    width: 100%;
+  }
+  .Main__Container--Images {
+    margin: 1rem auto;
+    width: 100%;
+    max-width: 600px;
+    column-count: 2;
+  }
+  .Main__Container--Images img {
+    max-width: 200px;
+  }
+  .Main__Container--Images img:hover {
+    -webkit-transform: scale(1.25);
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */

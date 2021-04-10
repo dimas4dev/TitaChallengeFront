@@ -140,4 +140,24 @@ body {
     }
   }
 }
+
+@media screen and (max-width: 750px) {
+  .Main {
+    width: 100%;
+    &__Container {
+      &--Images {
+        img {
+          max-width: 200px;
+        }
+        img:hover {
+          -webkit-transform: scale(1.25);
+        }
+        margin: 1rem auto;
+        width: 100%;
+        max-width: 600px;
+        column-count: 2;
+      }
+    }
+  }
+}
 //750 px menu hamburguesa

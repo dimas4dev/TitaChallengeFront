@@ -2,10 +2,6 @@
 
 This application is the respective Landing page of a company that publishes images, it has its respective filters by section. He was a developer with VanillaJS, SASS as CSS preprocessor
 
-## Demo
-
-Here you will find a demo from challenge[Tita Challenge](https://tita-challenge-front.vercel.app/)
-
 ## Installation
 
 To install you only need to perform the following steps:

@@ -1,0 +1,24 @@
+{
+  "name": "TitaChallenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "sass": "^1.32.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dimasmendoza/TitaChallengeFront.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dimasmendoza/TitaChallengeFront/issues"
+  },
+  "homepage": "https://github.com/dimasmendoza/TitaChallengeFront#readme"
+}
